@@ -97,7 +97,7 @@ def psi_step(rule, raw_d: float, tier: str, env, evaluator, input_fn=input):
         return None
 
 
-
+if __name__ == "__main__":
     # Синтетическая проверка на 7 кандидатах с raw_d=3.5 (как реально
     # измерено в demo_pipeline.py) — сравнение "без κ" (MANUAL, скидки нет)
     # против "с κ" (AUTO_ACCEPT, полная скидка доверия).
